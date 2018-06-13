@@ -1,0 +1,37 @@
+/*
+ *
+ * Common
+ *
+ *
+*/
+header, section, div, p, img {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+}
+/*
+ *
+ * Header
+ *
+ *
+*/
+hr {
+  color: #7d97ad;
+  border-width: 3px;
+}
+/*
+ *
+ * Background Information
+ *
+ *
+*/
+
+/*
+ *
+ * Project List
+ *
+ *
+*/
