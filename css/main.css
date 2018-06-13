@@ -63,12 +63,29 @@ hr {
 
 .headline {
   height: 300px;
+  position: relative;
 }
 
 .headline__image {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.headline__about {
+  position: absolute;
+  color: wheat;
+  font-size: 1.25em;
+  width: 75%;
+  margin-left: 1em;
+}
+
+.headline p:nth-child(2) {
+  top: 7em;
+}
+
+.headline p:nth-child(3) {
+  top: 10em;
 }
 
 /*
