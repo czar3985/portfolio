@@ -4,6 +4,7 @@
  *
  *
 */
+
 header, section, div, p, img {
   box-sizing: border-box;
 }
@@ -12,22 +13,52 @@ body {
   font-family: Roboto;
   font-size: 14px;
 }
+
 /*
  *
  * Header
  *
  *
 */
-hr {
-  color: #7d97ad;
-  border-width: 3px;
+
+.header__inner {
+  height: 80px;
+  display: flex;
 }
+
+.header__logo {
+  height: 100%;
+}
+
+.header__text {
+  padding-left: 1em;
+  vertical-align: middle;
+}
+
+.header__name {
+  text-align: left;
+  margin: 0;
+  font-size: 1.5em;
+  padding-top: 10%;
+}
+
+.header__title {
+  text-align: left;
+  margin: 0;
+  font-size: 1em;
+}
+
 /*
  *
  * Background Information
  *
  *
 */
+
+hr {
+  color: #7d97ad;
+  border-width: 3px;
+}
 
 /*
  *
