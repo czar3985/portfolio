@@ -57,7 +57,8 @@ body {
 
 hr {
   color: #7d97ad;
-  border-width: 3px;
+  border-width: 1.5px;
+  border-style: solid;
 }
 
 /*
