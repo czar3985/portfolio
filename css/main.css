@@ -61,6 +61,16 @@ hr {
   border-style: solid;
 }
 
+.headline {
+  height: 300px;
+}
+
+.headline__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*
  *
  * Project List
