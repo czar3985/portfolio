@@ -14,6 +14,14 @@ body {
   font-size: 14px;
 }
 
+.primary_color {
+  color: #2d3c49;
+}
+
+.secondary_color {
+  color: #7d97ad;
+}
+
 /*
  *
  * Header
@@ -56,7 +64,6 @@ body {
 */
 
 hr {
-  color: #7d97ad;
   border-width: 1.5px;
   border-style: solid;
 }
