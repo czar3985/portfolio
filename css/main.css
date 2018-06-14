@@ -61,8 +61,51 @@ body {
     float: right;
   }
 
-  .header__name, .header__title {
+  .header__name {
     text-align: right;
+    font-size: 2em;
+    padding-top: 5%;
+  }
+
+  .header__title {
+    text-align: right;
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .header__inner {
+    height: 100px;
+  }
+
+  .header__name {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    padding-top: 10%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .header__name {
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    padding-top: 5%;
+  }
+
+  .header__title {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header__name {
+    font-size: 3.25em;
+    padding-top: 4%;
+  }
+
+  .header__title {
+    font-size: 1.5em;
   }
 }
 
@@ -72,7 +115,6 @@ body {
  *
  *
 */
-
 hr {
   border-width: 1.5px;
   border-style: solid;
