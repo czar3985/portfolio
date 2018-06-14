@@ -11,6 +11,7 @@ header, section, div, p, img {
 
 body {
   font-family: Roboto Light;
+  font-size: 14px;
 }
 
 .primary_color {
@@ -30,16 +31,16 @@ body {
 
 .header__inner {
   height: 80px;
-  display: flex;
 }
 
 .header__logo {
   height: 100%;
+  float: left;
 }
 
 .header__text {
   padding-left: 1em;
-  vertical-align: middle;
+  float: left;
 }
 
 .header__name {
@@ -53,6 +54,16 @@ body {
   text-align: left;
   margin: 0;
   font-size: 1em;
+}
+
+@media screen and (min-width: 450px) {
+  .header__text {
+    float: right;
+  }
+
+  .header__name, .header__title {
+    text-align: right;
+  }
 }
 
 /*
@@ -97,6 +108,16 @@ hr {
 .headline__link {
   text-decoration: none;
   color: #02b3e4;
+}
+
+@media screen and (min-width: 450px) {
+  .headline p:nth-child(2) {
+    top: 8em;
+  }
+
+  .headline p:nth-child(3) {
+    top: 11em;
+  }
 }
 
 /*
