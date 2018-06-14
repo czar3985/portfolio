@@ -101,3 +101,34 @@ hr {
  *
  *
 */
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works__header {
+  padding-top: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.project__tile {
+  width: 100%;
+}
+
+.project__image {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.project__title {
+  text-align: center;
+}
+
+.project__link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+}
