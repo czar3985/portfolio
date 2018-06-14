@@ -238,13 +238,39 @@ hr {
   margin-bottom: 2em;
 }
 
+@media screen and (min-width: 550px) {
+  .project__image {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .project__tile {
+    width: 50%;
+  }
+
+  .project__image {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .works__header {
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  .project__tile {
+    width: 33.33333%;
+  }
+}
+
 /*
  *
  * Styling for responsiveness
  *
  *
 */
-
 @media screen and (min-width: 900px) {
   header, main {
     width: 884px; /* 900px minus body padding */
