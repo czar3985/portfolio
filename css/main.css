@@ -5,13 +5,16 @@
  *
 */
 
-header, section, div, p, img {
+body, header, section, div, p, img {
   box-sizing: border-box;
 }
 
 body {
   font-family: Roboto Light;
   font-size: 14px;
+  width: 100%;
+  margin: 0;
+  padding: 8px;
 }
 
 .primary_color {
@@ -210,13 +213,12 @@ hr {
 */
 
 @media screen and (min-width: 900px) {
-  header, section {
-    width: 900px;
+  header, main {
+    width: 884px; /* 900px minus body padding */
     margin: auto;
   }
 
   hr {
-    width: 900px;
     margin: 1em auto;
   }
 }
