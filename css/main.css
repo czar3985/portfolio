@@ -5,13 +5,12 @@
  *
 */
 
-body, header, section, div, p, img {
+* {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Roboto Light;
-  font-size: 14px;
+  font: 14px "Roboto Light", Raleway;
   width: 100%;
   margin: 0;
   padding: 8px;
@@ -106,6 +105,11 @@ body {
 }
 
 @media screen and (min-width: 900px) {
+  header {
+    width: 884px; /* 900px minus body padding */
+    margin: auto;
+  }
+
   .header__name {
     font-size: 3.25em;
     padding-top: 4%;
@@ -199,6 +203,12 @@ hr {
   }
 }
 
+@media screen and (min-width: 900px) {
+  hr {
+    margin: 1em auto;
+  }
+}
+
 /*
  *
  * Project List
@@ -267,17 +277,13 @@ hr {
 
 /*
  *
- * Styling for responsiveness
+ * Main Body styling for responsiveness
  *
  *
 */
 @media screen and (min-width: 900px) {
-  header, main {
+  main {
     width: 884px; /* 900px minus body padding */
     margin: auto;
-  }
-
-  hr {
-    margin: 1em auto;
   }
 }
