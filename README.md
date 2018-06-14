@@ -1,9 +1,14 @@
 # Personal Portfolio
 
-An ongoing project
+Responsive design is used to create my portfolio website that was 
+replicated from an initial design mockup.
 
-## To Do
-- Fix the styling
-- Define breakpoints and make it responsive
+
+The given initial design:
+
+![The given design](./img/design-mockup-portfolio.jpg?raw=true "Title")
+
+## To Dos
+- Add other projects
 - Optimize images 
 - Add modal per project tile
