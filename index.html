@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
   <!-- Metas for SEO -->
   <meta name="description" content="Full stack developer based in Wellington, New Zealand" />
   <meta name="keywords" content="full stack developer, full stack, web developer, software developer,
-                                 wellington, new zealand, software engineer, lingad, rina lingad, portfolio" />
+                                wellington, new zealand, software engineer, lingad, rina lingad, portfolio" />
 
   <!-- Styling for the page -->
   <link rel="stylesheet" href="css/main.css" />
@@ -17,7 +18,154 @@
   <!-- Browser tab icon -->
   <link rel="icon" href="img/favicon.png">
 </head>
+
 <body>
+  <!-- Modals per project -->
+  <!-- Project Name: Insurance Management System -->
+  <div class="modal" id="modalIms">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Insurance Management System</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          In one app, the Insurance Management System (IMS) handles all the processes in the customer's insurance business.
+          It automates the process of policy issuance and invoicing up to accounts receivable. It offers real time monitoring
+          of policy status. It allows maintenance of client profiles (total business, claims, etc.) for further analysis.
+          It provides a facility for real time report generation, notification and alerts.<br /><br />
+          <strong>Account management</strong> handles password changes, forgotten passwords, log-in/log-off, user addition, deletion, modification,
+          and setting admin rights.<br />
+          The <strong>Dashboard</strong> tab features information about expiring policies, outstanding invoices and unpaid Statement of Accounts (SOA).<br />
+          The <strong>Clients</strong> tab show all client information. It allows addition of clients and modification of details. Per client,
+          you can find, add and edit their corresponding policies, claims and client-specific offers.<br />
+          The <strong>Policies</strong> tab shows all policy information. It allows addition, modification, renewal and cancellation of policies.
+          The policy's corresponding endorsements, invoices, claims and attachment can be managed. New options for insurance
+          providers, policy types, clients and agents can be added for new policies.<br />
+          The <strong>Default Rebates</strong> tab sets up the default rebates per provider and policy type.<br />
+          The <strong>Invoices</strong> tab shows all invoice information. It allows invoice rejection, approval,  addition and modification.
+          It handles automatic computations of dues based on premiums, rebates, particulars and taxes. It monitors invoices
+          until marked as paid and and saves the corresponding official receipt number.<br />
+          The <strong>SOA</strong> tab keeps track of statement of account statuses, allows addition/modification of SOAs and handles the SOA
+          document creation.<br />
+          The <strong>Claims</strong> tab is for addition, editing and monitoring of claims received.<br />
+          In the <strong>Reports</strong> tab, reports can be created and downloaded per year, per insurance provider and per policy type.
+          The monthly production of the business can also be shown and downloaded.<br />
+          In the <strong>Forms</strong> tab, the company forms can be kept and the available document types can be managed.<br />
+          In the <strong>Company Directory</strong>, contact information are added and managed.<br />
+          PDF generation and sending of email can be done for renewal notices of expiring policies, invoices, statement of accounts.
+          The tabs also feature searching, sorting, filtering and worksheet file download options.
+          <br /><br />Github link: <a class="modal__link" href="https://github.com/czar3985/ims">here</a>
+        </p>
+        <ul class="modal__skills">
+          <li>ASP.NET MVC</li>
+          <li>C#</li>
+          <li>AngularJS</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Entity Framework</li>
+        </ul>
+        <img class="modal__image" src="img/ims_add_policy_640.jpg" srcset="img/ims_add_policy_1347.jpg 1347w" alt="Add policy page of the insurance management system">
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Name: Movie Trailer Website -->
+  <div class="modal" id="modalMovieTrailer">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Movie Trailer Website</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          The project uses server side code for storing a movie list and the movie details including box art imagery
+          and trailer link. After running the Python script, a static web page is generated that allows users to
+          browse movies, read synopses and watch official trailer videos for each movie. A search function is also available.
+          <br /><br />In this specific project, Marvel universe movies are included and they are sure to delight any Marvel fan.
+          <br /><br />Github link: <a class="modal__link" href="https://github.com/czar3985/movie-trailer-website">here</a>
+        </p>
+        <ul class="modal__skills">
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+        </ul>
+        <img class="modal__image" src="img/movietrailer_640.jpg" srcset="img/movietrailer_1346.jpg 1346w" alt="Movie Trailer webpage">
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Name: Personal Portfolio -->
+  <div class="modal" id="modalPortfolio">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Personal Portfolio</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          A PDF mockup of a portfolio website is replicated into a real website using HTML and CSS.
+          The website displays responsive elements. For each featured work, screenshots, descriptions,
+          skills and links are added and can be viewed by clicking on the project tiles.
+          <br /><br />Github link: <a class="modal__link" href="https://github.com/czar3985/portfolio">here</a>
+        </p>
+        <ul class="modal__skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>jQuery</li>
+        </ul>
+        <img class="modal__image" src="img/portfolio_640.jpg" srcset="img/portfolio_1346.jpg 1346w" alt="Portfolio webpage">
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Name: Upcoming Projects -->
+  <div class="modal" id="modalSoon">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Upcoming Projects</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          <strong>Logs Analysis</strong> - A reporting tool that summarizes data from a large database.
+          The application will run from the command line. It will take data from the database of newspaper
+          articles and the web server logs. The aim is to discover the kinds of articles the
+          site's readers most like.<br /><br />
+          <strong>Item Catalog</strong> - An application that will provide a list of items within a variety
+          of categories. It will also provide a user registration and authentication system. Registered users
+          will be able to post, edit and delete their own items.<br /><br />
+          <strong>Neighborhood Map</strong> - A single-page application that will feature a map of the
+          neighborhood. Other functions will include highlighting locations, providing third-party data about
+          those locations and various ways to browse the content.<br /><br />
+          <strong>Linux Server Configuration</strong> - A baseline installation of a Linux server will be
+          prepared to host web applications. The server should be secured from attacks. A database server
+          will be installed and configured and existing web applications will be deployed in it.<br /><br />
+        </p>
+        <ul class="modal__skills">
+          <li>Python</li>
+          <li>SQL</li>
+          <li>RESTful API</li>
+          <li>Flask framework</li>
+          <li>SQLAlchemy</li>
+          <li>Google OAuth</li>
+          <li>Linux</li>
+        </ul>
+        <img class="modal__image" src="img/coming_soon_640.jpg" srcset="img/coming_soon_1280.jpg 1280w, img/coming_soon_1920.jpg 1920w" alt="Portfolio webpage">
+      </div>
+    </div>
+  </div>
+
   <!-- Header of the page -->
   <header>
     <div class="header__inner">
@@ -31,11 +179,10 @@
 
   <!-- Main Page content -->
   <main>
-
     <!-- Background Information -->
     <hr class="secondary_color" />
     <section class="headline">
-      <img class="headline__image" src="img/notebook-1280538.jpg" alt="A notebook, reading glasses and coffee" />
+      <img class="headline__image" src="img/notebook_640.jpg" srcset="img/notebook_1280.jpg 1280w, img/notebook_1920.jpg 1920w" alt="A notebook, reading glasses and coffee" />
       <!-- TODO: Check if br is better for the text below -->
       <p class="headline__about">A developer based in Wellington, New Zealand.</p>
       <p class="headline__about">
@@ -50,31 +197,32 @@
     <!-- Project List -->
     <section class="works">
       <h2 class="works__header secondary_color">Featured Work</h2>
-      <div class="project__tile">
-        <img class="project__image" src="img/calculator-1680905_1920.jpg" alt="A calculator, pen and documents">
+      <!--<button id="myBtn">Open Modal</button>-->
+      <div class="project__tile" id="tileIms">
+        <img class="project__image" src="img/calculator_640.jpg" srcset="img/calculator_1280.jpg 1280w, img/calculator_1920.jpg 1920w" alt="A calculator, pen and documents">
         <h3 class="project__title primary_color">INSURANCE MANAGEMENT SYSTEM</h3>
-        <a class="project__link primary_color" href="https://github.com/czar3985/ims">
-          https://github.com/czar3985/ims
-        </a>
       </div>
-      <div class="project__tile">
-        <img class="project__image" src="img/movie-918655_1920.jpg" alt="A movie reel, film and projector">
+      <div class="project__tile" id="tileMovieTrailer">
+        <img class="project__image" src="img/movie_640.jpg" srcset="img/movie_1280.jpg 1280w, img/movie_1920.jpg 1920w" alt="A movie reel, film and projector">
         <h3 class="project__title primary_color">MOVIE TRAILER WEBSITE</h3>
-        <a class="project__link primary_color" href="https://github.com/czar3985/movie-trailer-website">
-          https://github.com/czar3985/movie-trailer-website
-        </a>
       </div>
-      <div class="project__tile">
-        <img class="project__image" src="img/startup-849804_1920.jpg" alt="Woman working on the computer">
+      <div class="project__tile" id="tilePortfolio">
+        <img class="project__image" src="img/startup_640.jpg" srcset="img/startup_1280.jpg 1280w, img/startup_1920.jpg 1920w" alt="Woman working on the computer">
         <h3 class="project__title primary_color">PERSONAL PORTFOLIO</h3>
-        <a class="project__link primary_color" href="https://github.com/czar3985/portfolio">
-          https://github.com/czar3985/portfolio
-        </a>
+      </div>
+      <div class="project__tile" id="tileSoon">
+        <img class="project__image" src="img/coming_soon_640.jpg" srcset="img/coming_soon_1280.jpg 1280w, img/coming_soon_1920.jpg 1920w" alt="Coming Soon sign">
+        <h3 class="project__title primary_color">UPCOMING PROJECTS</h3>
       </div>
     </section>
   </main>
 
   <!-- TODO: Add footer for copyright -->
+  <!-- JQuery Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <!-- Scripts for the page -->
+  <script src="js/main.js"></script>
 </body>
+
 </html>
