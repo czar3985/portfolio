@@ -22,6 +22,11 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
+    $("#tileSpelling").click(function (e) {
+        $("#modalSpelling").css({ "display": "block" });
+        setOpenFlag(e);
+    });
+
     $("#tileSoon").click(function (e) {
         $("#modalSoon").css({ "display": "block" });
         setOpenFlag(e);
