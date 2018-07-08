@@ -12,8 +12,8 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
-    $("#tileMovieTrailer").click(function (e) {
-        $("#modalMovieTrailer").css({ "display": "block" });
+    $("#tileSpelling").click(function (e) {
+        $("#modalSpelling").css({ "display": "block" });
         setOpenFlag(e);
     });
 
@@ -22,8 +22,8 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
-    $("#tileSpelling").click(function (e) {
-        $("#modalSpelling").css({ "display": "block" });
+    $("#tileMovieTrailer").click(function (e) {
+        $("#modalMovieTrailer").css({ "display": "block" });
         setOpenFlag(e);
     });
 
