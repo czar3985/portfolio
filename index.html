@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
 
   <!-- Browser tab icon -->
-  <link rel="icon" href="img/favicon.png">
+  <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -86,23 +86,68 @@
       </div>
       <div class="modal__body">
         <p class="modal__text">
-          A spelling helper application created with HTTP server code in Python. Previously saved words or a new set of
-          words can be used for spelling practice. Users can practice 10 spelling words at a time. It makes use of a
-          third-party website that converts text to speech for reading the spelling words aloud. The Spelling Practice app
+          Two versions of a spelling helper application. The first one is created with HTTP server code in Python.
+          The second version is created with ASP.NET MVC and C#. <br /><br />
+          Previously saved words or a new set of words can be used for spelling practice.
+          Users can practice 10 spelling words at a time. It makes use of the HTML5 SpeechSynthesis API for
+          reading the spelling words aloud. The Spelling Practice app
           checks the answers submitted against the correct spelling of the words.
-          <br /><br />Github link for the code:
+          <br /><br />Github link for the Python code:
           <a class="modal__link" href="https://github.com/czar3985/spelling-practice">here</a>
           <br />Website:
           <a class="modal__link" href="http://spellingpractice.herokuapp.com/">here</a>
-          <br /><br />
-          <i>Currently working on using HTML5 API SpeechSynthesis to replace usage of a third-party website for reading words.</i>
+          <br /><br />Github link for the .NET and C# code:
+          <a class="modal__link" href="https://github.com/czar3985/spelling-practice-ver2">here</a>
+          <br />Website:
+          <a class="modal__link" href="http://spellingteacher.azurewebsites.net/">here</a>
         </p>
         <ul class="modal__skills">
           <li>Python</li>
           <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
           <li>Bootstrap</li>
         </ul>
+        <ul class="modal__skills">
+          <li>ASP.NET MVC</li>
+          <li>C#</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+        </ul>
         <img class="modal__image" src="img/spelling_640.jpg" srcset="img/spelling_1346.jpg 1346w" alt="Spelling Practice webpage">
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Name: Spreadsheet -->
+  <div class="modal" id="modalSpreadsheet">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Spreadsheet</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          An online spreadsheet application with a dynamically-created 100x100 grid that
+          allows a user to do basic operations on number or cell references input
+          (multiplication, division, addition, subtraction, sum of vertical range),
+          gets number or string input, allows formatting of cells (bold, italic, underline)
+          and checks for circular references.
+          <br /><br />Github link:
+          <a class="modal__link" href="https://github.com/czar3985/spreadsheet">here</a>
+          <br />Website:
+          <a class="modal__link" href="http://spreadsheetonline.azurewebsites.net/">here</a>
+        </p>
+        <ul class="modal__skills">
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <img class="modal__image" src="img/spreadsheet_640.jpg" srcset="img/spreadsheet_1346.jpg 1346w" alt="Spreadsheet webpage">
       </div>
     </div>
   </div>
@@ -260,10 +305,13 @@
     <!-- Project List -->
     <section class="works">
       <h2 class="works__header secondary_color">Featured Work</h2>
-      <!--<button id="myBtn">Open Modal</button>-->
       <div class="project__tile" id="tileIms">
         <img class="project__image" src="img/calculator_640.jpg" srcset="img/calculator_1280.jpg 1280w, img/calculator_1920.jpg 1920w" alt="A calculator, pen and documents">
         <h3 class="project__title primary_color">INSURANCE MANAGEMENT SYSTEM</h3>
+      </div>
+      <div class="project__tile" id="tileSpreadsheet">
+        <img class="project__image" src="img/bookkeeping_640.jpg" srcset="img/bookkeeping_1280.jpg 1280w, img/bookkeeping_1920.jpg 1920w" alt="A woman making calculations">
+        <h3 class="project__title primary_color">SPREADSHEET</h3>
       </div>
       <div class="project__tile" id="tileSpelling">
         <img class="project__image" src="img/woodcube_640.jpg" srcset="img/woodcube_1280.jpg 1280w, img/woodcube_1920.jpg 1920w" alt="Wooden letter cubes">

@@ -12,6 +12,11 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
+    $("#tileSpreadsheet").click(function (e) {
+        $("#modalSpreadsheet").css({ "display": "block" });
+        setOpenFlag(e);
+    });
+
     $("#tileSpelling").click(function (e) {
         $("#modalSpelling").css({ "display": "block" });
         setOpenFlag(e);
