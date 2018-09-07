@@ -17,6 +17,11 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
+    $("#tileRestaurant").click(function (e) {
+        $("#modalRestaurant").css({ "display": "block" });
+        setOpenFlag(e);
+    });
+
     $("#tileSpelling").click(function (e) {
         $("#modalSpelling").css({ "display": "block" });
         setOpenFlag(e);
