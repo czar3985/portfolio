@@ -412,12 +412,12 @@ hr {
 
 .modal__skills li {
   color: white;
-  display: inline;
+  display: inline-block;
   border-radius: 4px;
   font-size: 12px;
-  line-height: 32px;
   background: #2d3c49;
   padding: 4px 9px;
+  margin: 2px;
 }
 
 .modal__image {
