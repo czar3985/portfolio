@@ -27,6 +27,11 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
+    $("#tileCatalog").click(function (e) {
+        $("#modalCatalog").css({ "display": "block" });
+        setOpenFlag(e);
+    });
+
     $("#tileLogs").click(function (e) {
         $("#modalLogs").css({ "display": "block" });
         setOpenFlag(e);
