@@ -52,6 +52,11 @@ $(document).ready(function () {
         setOpenFlag(e);
     });
 
+    $("#tileLinuxServer").click(function (e) {
+        $("#modalLinuxServer").css({ "display": "block" });
+        setOpenFlag(e);
+    });
+
     $("#tileSoon").click(function (e) {
         $("#modalSoon").css({ "display": "block" });
         setOpenFlag(e);

@@ -274,6 +274,8 @@
         <p>
           Github link:
           <a class="modal__link" href="https://github.com/czar3985/pokemon-types">here</a>
+          <br />Website:
+          <a class="modal__link" href="http://ec2-54-252-131-90.ap-southeast-2.compute.amazonaws.com/">here</a>
         </p>
         <ul class="modal__skills">
           <li>Python</li>
@@ -398,6 +400,53 @@
     </div>
   </div>
 
+  <!-- Project Name: Linux Server Configuration -->
+  <div class="modal" id="modalLinuxServer">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__header">
+        <h2 class="modal__title primary_color">Linux Server Configuration</h2>
+        <span class="modal__close">&times;</span>
+        <hr class="modal__separator secondary_color" />
+      </div>
+      <div class="modal__body">
+        <p class="modal__text">
+          The project takes a baseline installation of a Linux server and prepares it
+          to host web applications. A database server is installed and configured,
+          security measures againsts a number of attack vectors are implemented and
+          a previously coded web application is deployed in it to make it publicly
+          accessible.<br /><br />
+          Features:<br />
+        </p>
+        <ul>
+          <li>An Ubuntu server instance is created in Amazon Lightsail</li>
+          <li>An admin user is created who can log-in using the generated SSH key</li>
+          <li>The admin user can run commands using sudo to inspect the files that are only readable by root</li>
+          <li>Key-based SSH authentication is enforced</li>
+          <li>Log-in remotely as root is disabled</li>
+          <li>Firewall is configured to only allow connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)</li>
+          <li>SSH is hosted on non-default port</li>
+          <li>All system packages have been updated to their most recent versions</li>
+          <li>The web server responds on port 80</li>
+          <li>Web server has been configured to serve the application as a WSGI app</li>
+          <li>PostgreSQL database server has been configured to serve data</li>
+        </ul>
+        <p>
+          Github link:
+          <a class="modal__link" href="https://github.com/czar3985/linux-server-configuration">here</a>
+        </p>
+        <ul class="modal__skills">
+          <li>Linux/Ubuntu</li>
+          <li>Amazon Lightsail</li>
+          <li>Apache</li>
+          <li>PostgreSQL</li>
+          <li>Python</li>
+        </ul>
+        <img class="modal__image" src="img/serverconfig_664.jpg" alt="Linux server configuration">
+      </div>
+    </div>
+  </div>
+
   <!-- Project Name: Upcoming Projects -->
   <div class="modal" id="modalSoon">
     <!-- Modal content -->
@@ -479,21 +528,25 @@
         <h3 class="project__title primary_color">ITEM CATALOG</h3>
       </div>
       <!--<div class="project__tile" id="tileLogs">
-    <img class="project__image" src="img/database_640.jpg" srcset="img/database_1280.jpg 1280w, img/database_1920.jpg 1920w" alt="Database schema">
-    <h3 class="project__title primary_color">LOGS ANALYZER</h3>
-  </div>-->
+        <img class="project__image" src="img/database_640.jpg" srcset="img/database_1280.jpg 1280w, img/database_1920.jpg 1920w" alt="Database schema">
+        <h3 class="project__title primary_color">LOGS ANALYZER</h3>
+      </div>-->
+      <div class="project__tile" id="tileLinuxServer">
+        <img class="project__image" src="img/network_640.jpg" srcset="img/network_1280.jpg 1280w, img/network_1920.jpg 1920w" alt="Devices in a network">
+        <h3 class="project__title primary_color">LINUX SERVER CONFIGURATION</h3>
+      </div>
       <div class="project__tile" id="tilePortfolio">
         <img class="project__image" src="img/startup_640.jpg" srcset="img/startup_1280.jpg 1280w, img/startup_1920.jpg 1920w" alt="Woman working on the computer">
         <h3 class="project__title primary_color">PERSONAL PORTFOLIO</h3>
       </div>
       <!--<div class="project__tile" id="tileMovieTrailer">
-    <img class="project__image" src="img/movie_640.jpg" srcset="img/movie_1280.jpg 1280w, img/movie_1920.jpg 1920w" alt="A movie reel, film and projector">
-    <h3 class="project__title primary_color">MOVIE TRAILER WEBSITE</h3>
-  </div>-->
-      <div class="project__tile" id="tileSoon">
+        <img class="project__image" src="img/movie_640.jpg" srcset="img/movie_1280.jpg 1280w, img/movie_1920.jpg 1920w" alt="A movie reel, film and projector">
+        <h3 class="project__title primary_color">MOVIE TRAILER WEBSITE</h3>
+      </div>-->
+      <!--<div class="project__tile" id="tileSoon">
         <img class="project__image" src="img/coming_soon_640.jpg" srcset="img/coming_soon_1280.jpg 1280w, img/coming_soon_1920.jpg 1920w" alt="Coming Soon sign">
         <h3 class="project__title primary_color">UPCOMING PROJECTS</h3>
-      </div>
+      </div>-->
     </section>
   </main>
 
